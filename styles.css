@@ -132,7 +132,7 @@ footer {
 nav {
   display: flex;
   justify-content: space-around;
-  padding: 10px;
+  padding: 20px;
 }
 
 .nav h1 {
@@ -159,6 +159,13 @@ main {
   padding: 10px;
   align-items: center;
   padding-bottom: 70px;
+  padding-top: 100px;
+}
+
+main img {
+  width: 400px;
+  height: 200px;
+  object-fit: cover;
 }
 
 .hero-main-txt {
@@ -183,7 +190,6 @@ main {
 }
 
 .main-right div {
-  border: 1px solid #fff;
   background-color: gray;
   color: white;
   height: 200px;
@@ -191,4 +197,98 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.info-section h1 {
+  font-size: 36px;
+  font-weight: 800;
+  color: #1f2937;
+  text-align: center;
+  padding-top: 40px;
+}
+
+.box-container {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  margin-bottom: 50px;
+}
+
+.pic-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.pic-container img {
+  border: 5px solid #3882f6;
+  border-radius: 10%;
+  width: 200px;
+  height: 200px;
+  margin: 20px;
+  object-fit: cover;
+}
+
+.quote-section {
+  background-color: #e5e7eb;
+  display: flex;
+  justify-content: center;
+}
+
+.quote {
+  margin: 50px;
+  padding: 100px;
+  font-size: 36px;
+  font-weight: lighter;
+  font-style: italic;
+  color: #1f2937;
+  justify-content: center;
+  text-align: left;
+}
+
+blockquote {
+  display: flex;
+  justify-content: flex-end;
+  margin: 20px;
+  font-weight: bold;
+}
+
+.calltoact {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #3882f6;
+  width: 60%;
+  height: 100px;
+  margin: auto;
+  color: #f9faf8;
+  border-radius: 15px;
+  margin-top: 70px;
+  padding: 20px 50px;
+}
+
+.cta-container h1 {
+  font-weight: bolder;
+  font-size: 24px;
+}
+
+.cta-container p {
+  color: #e5e7eb;
+  font-size: 16px;
+}
+
+.calltoact button {
+  background-color: #3882f6;
+  color: #f9faf8;
+  border: 2px solid #f9faf8;
+  border-radius: 8px;
+  padding: 5px 30px;
+}
+
+footer {
+  text-align: center;
+  color: #f9faf8;
+  padding: 40px;
+  margin-top: 70px;
 }
